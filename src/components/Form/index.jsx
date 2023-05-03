@@ -7,12 +7,16 @@ const FormElement = styled.form`
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 700px;
+  max-width: 450px;
 `;
 
 const InputAdd = styled.input`
   padding: 10px 20px;
   font-size: 16px;
+  ::placeholder {
+    color: rgb(190 190 190);
+    font-size: 15px;
+  }
   margin-bottom: 10px;
   border: none;
   background: #f3f3f3;
@@ -46,7 +50,7 @@ export default function FormTask() {
 
   return (
     <FormElement onSubmit={handleSubmit}>
-      <InputAdd type="text" name="name" />
+      <InputAdd type="text" name="name" placeholder="Do homework, Buy apples..."/>
       <ButtonAdd>Add Task</ButtonAdd>
     </FormElement>
   );

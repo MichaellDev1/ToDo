@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 *,
@@ -18,4 +18,13 @@ body {
     scroll-behavior: smooth;
     color: #000;
     outline: none;
+}
+
+ul::-webkit-scrollbar {
+    width: 10px;
+
+}
+ul::-webkit-scrollbar-thumb {
+    background-color: rgb(207, 207, 207);
+    border-radius: 20px;
 }

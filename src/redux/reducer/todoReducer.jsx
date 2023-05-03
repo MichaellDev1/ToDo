@@ -31,8 +31,7 @@ const todoReducer = createSlice({
       };
     },
     deleteTask: (state, action) => {
-      const taskDelete = state.findIndex(({ id }) => id !== action.payload.id)
-      state = state.splice(taskDelete, 1);
+      state = state.splice(action.payload.index, 1);
     },
   },
 });
