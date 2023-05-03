@@ -14,7 +14,7 @@ const AppContent = styled.main`
 
 const Title = styled.h1 `
   color: rgb(75, 49, 100);
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 50px;
 `
 
