@@ -5,7 +5,7 @@
 
 <img src='https://res.cloudinary.com/dfkvvcfxs/image/upload/v1683251997/Screenshot_3_tpfmzd.png'/>
 
-# Para la creacion del mismo se hizo la utilizacion de las siguientes tecnologias:
+# Para la creación del mismo se utilizaron las siguientes tecnologías:
 - React
 - Redux
 - Styled-Components
